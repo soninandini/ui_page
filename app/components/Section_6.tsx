@@ -5,14 +5,14 @@ function Section_6(){
    return(<> 
                         <div className="lg:flex">
                 <div className="flex-grow">  {/* Ensure the text section takes available space */}
-                    <p className="text-3xl font-bold px-4 lg:ml-[60px] lg:mt-[60px]">All the cool features</p>
+                    <p className="text-3xl font-bold px-4 lg:ml-[60px] lg:mt-[60px]">All the cool  <span className="underline decoration-orange-500 decoration-4">features</span></p>
                     <div className="hidden lg:block mt-[20px] lg:ml-[80px]">
                     <p>Mauris consequat, cursus pharetra et, habitasse rhoncus quis </p>
                     <p>odio ac. In et dolor eu donec maecenas nulla. Cum sed orci, sit</p>
                     <p>pellentesque quisque feugiat cras ullamcorper. Ultrices in amet,</p>
                     <p>ullamcorper non viverra a, neque orci.</p>
                     </div>
-                    <button className="hidden lg:block font-bold inline-block after:content-['→'] after:ml-2  text-blue-500 mt-[50px] lg:ml-[80px]">View all the features</button>
+                    <button className="hidden lg:block font-bold inline-block after:content-['→'] after:ml-2 text-[16px] text-blue-500 mt-[50px] lg:ml-[80px]">View all the features</button>
                 </div>
 
                 {/* Image section aligned to the right */}

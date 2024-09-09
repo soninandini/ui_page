@@ -15,7 +15,7 @@ import icon9 from "../../public/assets/icon9.svg";
 function Section_2() {
     return (<div className="bg-slate-100"> 
                 <div>
-                    <p className="mt-20 text-2xl px-4 font-bold lg:text-center lg:text-3xl"> All the tools that you need</p>
+                    <p className="mt-20 py-[40px] text-2xl px-4 font-bold lg:text-center lg:text-3xl"> All the  <span className="underline decoration-4 decoration-orange-500">Tools</span> that you need</p>
                     <p className="mt-4 px-4 lg:text-center lg:leading-[0.75]">
                         Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris.
                         <span className="hidden lg:block"><br /></span>

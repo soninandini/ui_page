@@ -6,17 +6,17 @@ function Section_3() {
   return (
     <div className="lg:flex">
         <div className="lg:ml-[70px]">
-            <p className="font-bold mt-[20px] px-4 text-2xl lg:mt-[80px] lg:text-3xl lg:px-4">An all-in-one app
+            <p className="font-bold mt-[20px] px-4 text-2xl lg:mt-[80px] lg:text-3xl lg:px-4">An  <span className="underline decoration-4 decoration-orange-500">all-in-one</span> app
             <span className="lg:block"> that makes it easier </span> </p>
             <p className="text-[16px] px-4 mt-[10px] lg:hidden">Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris.
             Pharetra, eu imperdiet ipsum ultrices amet, dui sit suspendisse.</p>
             <div>
-                <li className="list-none px-4 lg:px-4 mt-[20px] lg:text-[14px] leading-loose">
+                <li className="list-none px-4 lg:px-4 mt-[20px] lg:text-[16px] leading-loose">
     <ul className="before:content-['✓'] before:mr-2">Est et in pharetra magna adipiscing ornare aliquam.</ul>
     <ul className="before:content-['✓'] before:mr-2">Tellus arcu sed consequat ac velit ut eu blandit</ul>
     <ul className="before:content-['✓'] before:mr-2">Ullamcorper ornare in et egestas dolor orci</ul>
     </li>
-    <p className="inline-block after:content-['→'] after:ml-2 px-4 text-blue-500 mt-[40px] font-bold lg:text-[12px]">
+    <p className="inline-block after:content-['→'] after:ml-2 px-4 text-blue-500 mt-[40px] font-bold lg:text-[16px]">
       Find more about the app
    </p>
 
