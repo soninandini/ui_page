@@ -13,10 +13,10 @@ import icon7 from "../../public/assets/icon7.svg";
 import icon8 from "../../public/assets/icon8.svg";
 import icon9 from "../../public/assets/icon9.svg";
 function Section_2() {
-    return (<div className="bg-slate-100"> 
+    return (<div className="bg-white lg:bg-slate-100 font-roboto"> 
                 <div>
-                    <p className="mt-20 py-[40px] text-2xl px-4 font-bold lg:text-center lg:text-3xl"> All the  <span className="underline decoration-4 decoration-orange-500">Tools</span> that you need</p>
-                    <p className="mt-4 px-4 lg:text-center lg:leading-[0.75]">
+                    <p className="mt-20 lg:mt-24 py-[40px] text-3xl px-4 font-bold lg:font-extrabold lg:text-center lg:text-[40px]"> All the  <span className="underline decoration-4 decoration-orange-500">tools</span> that you need</p>
+                    <p className="mt-[-10px] px-4 lg:text-center lg:leading-[0.75] lg:text-[20px] text-[16px]">
                         Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris.
                         <span className="hidden lg:block"><br /></span>
                         Pharetra, eu imperdiet ipsum ultrices amet, dui sit suspendisse.
@@ -35,8 +35,8 @@ function Section_2() {
     alt="right column" 
     className="
       z-10 
-      h-[100px] w-[250px]    {/* Default size for mobile screens */}
-      sm:h-[50px] sm:w-[60px]  {/* Size for small screens */}
+      h-[100px] w-[250px]    
+      sm:h-[50px] sm:w-[60px]  
       lg:h-[480px] lg:w-[600px]" 
   />
 
@@ -56,8 +56,8 @@ function Section_2() {
     alt="right column" 
     className="
       z-10 
-      h-[150px] w-[300px]   {/* Default size for mobile screens */}
-      sm:h-[10px] sm:w-[20px]  {/* Size for small screens */}
+      h-[150px] w-[300px]   
+      sm:h-[10px] sm:w-[20px] 
       lg:h-[600px] lg:w-[400px] top-[-60px]" 
   />
 </div>
@@ -68,8 +68,8 @@ function Section_2() {
     className="absolute right-[50px] top-[-35px]"
   />
 </div>
-<div className="flex space-x-14 ml-0">
-    <Image src={icon1} alt="icon1" className="lg:h-[50px] lg:w-[50px] lg:space-x-20 lg:mt-12 lg:ml-40" />
+<div className="flex space-x-14 ml-0 ">
+    <Image src={icon1} alt="icon1" className="lg:h-[50px] lg:w-[50px] lg:space-x-20 lg:mt-12 lg:ml-40 lg:mb-12" />
     <Image src={icon2} alt="icon2" className="lg:h-[50px] lg:w-[50px] lg:space-x-20 lg:mt-12 lg:ml-40" />
     <Image src={icon3} alt="icon3" className="lg:h-[50px] lg:w-[50px] lg:space-x-20 lg:mt-12 lg:ml-40" />
     <Image src={icon4} alt="icon4" className="lg:h-[50px] lg:w-[50px] lg:space-x-20 lg:mt-12 lg:ml-40"/>

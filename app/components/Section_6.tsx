@@ -4,28 +4,29 @@ import poster from "../../public/assets/poster.svg";
 function Section_6(){
    return(<> 
                         <div className="lg:flex">
-                <div className="flex-grow">  {/* Ensure the text section takes available space */}
-                    <p className="text-3xl font-bold px-4 lg:ml-[60px] lg:mt-[60px]">All the cool  <span className="underline decoration-orange-500 decoration-4">features</span></p>
-                    <div className="hidden lg:block mt-[20px] lg:ml-[80px]">
-                    <p>Mauris consequat, cursus pharetra et, habitasse rhoncus quis </p>
-                    <p>odio ac. In et dolor eu donec maecenas nulla. Cum sed orci, sit</p>
-                    <p>pellentesque quisque feugiat cras ullamcorper. Ultrices in amet,</p>
-                    <p>ullamcorper non viverra a, neque orci.</p>
+                <div className="flex-grow">  
+                    <p className="text-3xl lg:text-[40px] font-roboto font-bold lg:font-extrabold px-4 lg:ml-[60px] lg:mt-[410px]">All the cool  <span className="underline decoration-orange-500 decoration-4">features</span></p>
+                    <div className="font-roboto hidden font-normal lg:block mt-[35px] lg:ml-[80px] text-[20px]">
+                    <p>Mauris consequat, cursus pharetra et, habitasse nulla. </p>
+                    <p>odio ac. In et dolor eu donec maecenas nulla cras.</p>
+                    <p>pellentesque quisque feugiat cras ullamcorper,cras</p>
+                    <p>ullamcorper non viverra a, neque orci.maecenas nulla cras.</p>
                     </div>
-                    <button className="hidden lg:block font-bold inline-block after:content-['→'] after:ml-2 text-[16px] text-blue-500 mt-[50px] lg:ml-[80px]">View all the features</button>
+                    <button className="hidden lg:block font-medium inline-block after:content-['→'] after:ml-2 text-[16px] font font-roboto lg:text-[20px] text-blue-600 mt-[50px] lg:ml-[80px]">View all the features</button>
                 </div>
 
-                {/* Image section aligned to the right */}
-                <div className="lg:flex-shrink-0 lg:ml-4"> {/* Add margin and prevent the image from growing */}
-                    <Image src={poster} alt="poster" className="hidden lg:h-[600px] lg:w-[450px] lg:block lg:mt-[-120px] lg:mr-[110px]" />
+              
+                <div className="lg:flex-shrink-0 lg:ml-4"> 
+                    <Image src={poster} alt="poster" className="hidden lg:h-[600px] lg:w-[479px] lg:block lg:mt-[180px] lg:mr-[110px]" />
                 </div>
                 </div>
 
                 <div className="lg:hidden">
-                    <p className="px-4 pt-4">
+                    <p className="px-4 pt-4 text-[16px] ">
                     Mauris consequat, cursus pharetra et, habitasse rhoncus quis odio ac. In et dolor eu donec maecenas nulla. Cum sed orci, sit pellentesque quisque feugiat cras ullamcorper. Ultrices in amet, ullamcorper non viverra a, neque orci.
                     </p>
-                    <button className="font-bold inline-block after:content-['→'] after:ml-2 text-blue-500 mt-4 px-4">View all the features</button>
+                    <button className="inline-block after:content-['→'] after:ml-2 text-blue-600 font-medium lg:text-[20px] text-[16px] font-roboto mt-8 px-4 pb-8">View all the features</button>
+                    
                 </div>
                 <Image src={poster} alt ="poster" className="lg:hidden"/>     
            

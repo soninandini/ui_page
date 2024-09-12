@@ -6,23 +6,28 @@ import arrows from '../../public/assets/arrows.svg';
 import card1 from '../../public/assets/card1.svg';
 import card2 from '../../public/assets/card2.svg';
 import card3 from '../../public/assets/card3.svg';
+import card from '../../public/assets/card.svg';
 function Section_5(){
-      return(<div className='pt-[40px]'>
+      return(<div className='pt-[0px]'>
             
-               <div className="bg-[#1F172A] flex flex-col items-center lg:flex-row lg:space-x-[220px]">
+               <div className="bg-[#0F172A] flex flex-col items-center lg:flex-row lg:space-x-[220px]">
                 <Image src={countries_icon} alt="countries_icon" className="h-[250px] w-[250px] mb-4 lg:mb-0 lg:ml-[40px]" />
                 <Image src={teachers_icon} alt="teachers_icon" className="h-[250px] w-[250px] mb-4 lg:mb-0" />
                 <Image src={students_icon} alt="students_icon" className="h-[250px] w-[250px]" />
                 </div>
-                <div className="lg:flex pt-[40px] px-4 lg:ml-[70px]">
-                    <p className='text-3xl font-bold'>What everyone says</p>
-                     <Image src = {arrows} alt="arrows" className="hidden lg:block ml-[700px] h-[70px] w-[70px] mt-[-15px] "/>
+                <div className="lg:flex pt-[60px] px-4 lg:ml-[50px]">
+                    <p className='text-3xl lg:text-[40px] font-roboto font-bold lg:font-extrabold'>What everyone says</p>
+                     <Image src = {arrows} alt="arrows" className="hidden lg:block ml-[600px] h-[70px] w-[100px] mt-[-15px] "/>
                 </div>
-                <div className='lg:flex lg:ml-[40px]'>
+                <div className='lg:hidden  lg:ml-[40px] mt-[-30px] lg:mt-0'>
                 <Image src = {card1} alt="arrows" className='h-[400px] w-[400px]'/>
                 <Image src = {card2} alt="arrows" className="hidden lg:block h-[400px] w-[400px] "/>
                 <Image src = {card3} alt="arrows" className="hidden lg:block h-[400px] w-[400px]"/>
                 </div>
+                <div className='hidden lg:block lg:ml-[40px] h-[100px] w-[1200px] mt-[30px]' >
+                  <Image src = {card} alt="card"/>
+                </div>
+
 
 
 
